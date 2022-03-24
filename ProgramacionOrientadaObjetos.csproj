@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,21 +51,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <Choose>
-  <When Condition=" '$(Configuration)' == 'Debug' ">
-    <ItemGroup>
-      <PackageReference  Include="log4net">
-        <ExcludeAssets>None</ExcludeAssets>
-        <Version>2.0.14</Version>
-      </PackageReference>
-    </ItemGroup>
-  </When>
-  <Otherwise>
-   <ItemGroup>
-    <PackageReference Include="Serilog">
-      <Version>2.11.0-dev-01380</Version>
-    </PackageReference>
-  </ItemGroup>
-  </Otherwise>
-</Choose>
+    <When Condition=" '$(Configuration)' == 'Debug' ">
+      <ItemGroup>
+        <PackageReference Include="log4net">
+          <ExcludeAssets>None</ExcludeAssets>
+          <Version>2.0.14</Version>
+        </PackageReference>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <PackageReference Include="Serilog">
+          <Version>2.11.0-dev-01380</Version>
+        </PackageReference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
