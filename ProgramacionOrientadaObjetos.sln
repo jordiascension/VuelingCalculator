@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacionOrientadaObjetos", "ProgramacionOrientadaObjetos.csproj", "{4AAFE549-3C38-440F-B52D-5F616A3D0F6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacionOrientadaObjetosTests", "..\ProgramacionOrientadaObjetosTests\ProgramacionOrientadaObjetosTests.csproj", "{0236B0E5-A948-436E-AD9A-CF1033BE9380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4AAFE549-3C38-440F-B52D-5F616A3D0F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AAFE549-3C38-440F-B52D-5F616A3D0F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AAFE549-3C38-440F-B52D-5F616A3D0F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0236B0E5-A948-436E-AD9A-CF1033BE9380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0236B0E5-A948-436E-AD9A-CF1033BE9380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0236B0E5-A948-436E-AD9A-CF1033BE9380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0236B0E5-A948-436E-AD9A-CF1033BE9380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
